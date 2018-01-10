@@ -1,7 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/Header';
+
+const App   =   () => {
+    return(
+        <div className="App">
+            <Header message="Naming Contests" />
+        </div>
+    )
+}
+
+
+
+// App.defaultProps   =   {
+//     headerMessage: 'Hello!'
+// }
 
 ReactDOM.render(
-    React.createElement('h2', null, 'Hello React!'),
+    <App />,
     document.getElementById('root')
 );

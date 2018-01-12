@@ -6,15 +6,23 @@ class App extends React.Component {
         super(props);
         this.state  =   { test: 42 };
     }
+
     headerState =   {
         pageHeader: "Naming Contests!!"
     };
+
+    componentDidMount(){
+        // timers, listeners
+    }
+    componentWillMount(){
+        // Clean  timers, listeners
+    }
 
     render(){
         return(
             <div className="App">
                 <Header message={this.headerState.pageHeader} />
-                <a href="https://www.youtube.com/watch?v=AthfbP_riuQ&list=PLndrmkbqEI8WrbdSUmxu0mxOB8ohahLrZ&index=14">MERN</a>
+                <a href="https://www.youtube.com/watch?v=fxSlnGV9CVg&list=PLndrmkbqEI8WrbdSUmxu0mxOB8ohahLrZ&index=16">MERN</a>
                 <div>{this.state.test}</div>
             </div>
         )

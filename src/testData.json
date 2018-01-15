@@ -1,0 +1,24 @@
+{
+    "contests": [
+        {
+            "id": 1,
+            "categoryName": "Business/Company",
+            "ContestName": "Congnitive Building Bricks"
+        },
+        {
+            "id": 2,
+            "categoryName": "Magazine/Newsletter",
+            "ContestName": "Educating people about sustanible food production"
+        },
+        {
+            "id": 3,
+            "categoryName": "Software Component",
+            "ContestName": "Big Data Analytics for cash Circulation"
+        },
+        {
+            "id": 4,
+            "categoryName": "Website",
+            "ContestName": "Free programing books"
+        }
+    ]
+}
